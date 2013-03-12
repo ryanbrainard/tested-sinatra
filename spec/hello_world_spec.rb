@@ -14,6 +14,6 @@ describe 'The HelloWorld App' do
   it "says hello" do
     get '/'
     last_response.should be_ok
-    last_response.body.should == 'Hello World'
+    last_response.body.should == 'Goodbye World'
   end
 end
