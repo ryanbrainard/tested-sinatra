@@ -1,5 +1,5 @@
 task :default => [:test]
 
 task :test do
-  rspec
+  system("rspec")
 end
